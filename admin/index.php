@@ -4,7 +4,7 @@
 	include 'pataAdmin.php';
 
 
-
+session_start();
     if(isset($_SESSION['prihlaseny'])) {
         header('Location: prihlaseny.php');
         exit();
